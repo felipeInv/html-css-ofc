@@ -141,6 +141,10 @@ main > article > p > span > a::after{
     width: 90%;
     height: 90%;
 }
+picture{
+    display: block;
+    margin: auto;
+}
 img.foto{
     display: block;
     margin: auto;
