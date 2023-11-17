@@ -141,7 +141,7 @@ main > article > p > span > a::after{
     width: 90%;
     height: 90%;
 }
-img source{
+img,source{
     display: block;
     margin: auto;
 }
