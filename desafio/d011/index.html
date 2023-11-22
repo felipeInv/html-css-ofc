@@ -6,23 +6,24 @@
     <title>imagem sobre a outra</title>
     <style>
         *{
-            padding: 0;
             margin: 0;
+            padding: 0;
         }
         body{
-            width: 100%;
-        }
-        img.sp{
-            position: absolute;
-        }
-        .astro{
             position: relative;
-            margin: 0 auto;
+            background-image: url('espaco.jpg');
+        }
+        #as{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <img src="espaco.jpg" alt="" class="sp">
-    <img src="astronauta.png" alt="" class="astro">
+    <div>
+        <img src="astronauta.png" alt="" id="as">
+    </div>
 </body>
 </html>
