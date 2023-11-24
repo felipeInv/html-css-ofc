@@ -53,21 +53,22 @@ section{
 }
 section.normal{
     background-color: white;
+   
     color: black;
 }
 section.imagem{
-    background-color: rgb(0, 0, 0);
     color: white;
-    background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    text-shadow: 1px 1px 2px black;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 0px 0px 15px  rgba(0, 0, 0, 0.637);
+}
+#img1{
+    background-image: url('imagens/background001.jpg');
 }
 #img2{
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 section.imagem > p{
     padding: 5px;
