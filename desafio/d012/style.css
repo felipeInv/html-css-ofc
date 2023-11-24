@@ -53,13 +53,12 @@ section{
 }
 section.normal{
     background-color: white;
-   
     color: black;
 }
 section.imagem{
     color: white;
     text-shadow: 1px 1px 2px black;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 0px 0px 15px  rgba(0, 0, 0, 0.637);
