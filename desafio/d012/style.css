@@ -10,17 +10,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
-    background-image: url('pacote-d012/imagens/background001.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body html{
+    min-height: 100vh;
+    background-color: rgb(1, 63, 1);
 }
 header{
     background-color: black;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     color: white;
 }
@@ -28,9 +24,10 @@ header h1{
     font-family: var(--titulo);
     font-size: 3em;
     margin-bottom: 0;
+    font-variant: small-caps;
 }
 header h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--texto);
     font-weight: 400;
     font-size: 1em;
     margin-top: 0;
@@ -45,17 +42,40 @@ header a:hover{
     text-decoration: underline;
     color: var(--verdep) ;
 }
-main p{
+section{
+    padding-top: 10vh ;
+    padding-bottom: 10vh ;
     font-family: var(--texto);
-    height: 100%;
-    width: 100%;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
     background-color: white;
     color: black;
-    padding: 30px;
+}
+section.imagem{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img2{
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.226);
 }
 footer {
     font-family: var(--titulo);
-    background-color: green;
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     border-top-right-radius: 15px;
@@ -70,7 +90,7 @@ footer a{
     transition: .5s;
 }
 footer a:hover{
-    color: rgb(0, 46, 0);
+    color: var(--verdep);
     text-decoration: underline;
 }
 
