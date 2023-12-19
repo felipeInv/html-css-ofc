@@ -36,6 +36,7 @@ iframe#tela{
     left: 22px;
     height: 472px;
     width: 268px;
+    margin: 20px;
 }
 section#redes{
     display: block;
