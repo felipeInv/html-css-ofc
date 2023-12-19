@@ -29,6 +29,7 @@ section#tel{
     transform: translate(-50%, -50%);
     background-image: url('imagens/frame-iphone2.png');
     background-repeat: no-repeat;
+    margin: 20px;
 }
 iframe#tela{
     position: relative;
@@ -36,7 +37,6 @@ iframe#tela{
     left: 22px;
     height: 472px;
     width: 268px;
-    margin: 20px;
 }
 section#redes{
     display: block;
