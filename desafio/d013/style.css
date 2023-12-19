@@ -37,3 +37,21 @@ iframe#tela{
     height: 472px;
     width: 268px;
 }
+section#redes{
+    display: block;
+    float: right;
+}
+a img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 30px;
+    transition: .6s;
+}
+a img:hover{
+    height: 65px;
+    width: 65px;
+    box-shadow: 2px 2px 3px black;
+    border: 1px solid rgb(0, 0, 0);
+}
