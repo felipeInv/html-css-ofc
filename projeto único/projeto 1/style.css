@@ -2,6 +2,7 @@
 
 :root{
     --verde: #08db08;
+    --verde5: #08db0891;
     --laranja: rgb(230, 151,4); 
 }
 *{
@@ -10,6 +11,7 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
 body{
     text-align: center;
     background: linear-gradient(to bottom,#1d1d1d,#000000);
@@ -19,6 +21,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 section{
     margin-bottom: 50px;
 }
@@ -26,22 +29,21 @@ img.myfoto{
     height: 15vw;
     border-radius: 50%;
 }
+
 h1{
-    background: linear-gradient(90deg, var(--verde), var(--laranja));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #585858;
+    color: var(--verde);
 }
+
 h2{
     margin: 10px;
 }
+
 h3{
     font-size: 1em;
 }
 section.inicio a{
     display: block;
-    color: var(--verde);
+    color: white;
     background-color: rgb(43, 43, 43);
     box-shadow: 0px 0px 4px black;
     max-width: 50%;
@@ -53,7 +55,8 @@ section.inicio a{
     transition: 0.5s;
 }
 section.inicio a:hover{
-    box-shadow: 0px 0px 3px var(--verde,0.4);
+    box-shadow: 0px 0px 2px var(--verde,0.4);
+    color: var(--verde);
 }
 
 
@@ -76,13 +79,13 @@ section.inicio a:hover{
 .skills .barras{
     display: block;
     background-color: #3d3d3d;
-    height: 5vh;
+    height: 3vh;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
 }
 .barras > span{
-    height: 5vh;
+    height: 3vh;
     background: linear-gradient(to right, #08db08, rgb(185, 204, 9));
     position: absolute;
 }
@@ -162,10 +165,13 @@ section.inicio a:hover{
 
 section.inTel{
     position: relative;
+    height: 627px;
+    width: 311px;
+    margin: auto;
 }
 iframe{
     position: absolute;
-    left: 196px;
+    left: 22px;
     top: 80px;
     width: 268px;
     height: 473px;
@@ -174,7 +180,8 @@ section.outTel{
     display: block;
     float: top;
     border-bottom: 1px solid rgba(255, 255, 255, 0.596);
-    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.596);
+    padding: 20px;
     border-radius: 20px;
 }
 section.outTel a{   
@@ -191,4 +198,41 @@ section.outTel a img:hover{
     transform: translate(0px, -10px);
     box-shadow: 5px 3px 5px black;
     border: 1px solid var(--verde);
+}
+
+
+section.form{
+    padding: 20px;
+    border-top: 1px solid var(--verde);
+    border-bottom: 1px solid var(--verde);
+    border-radius: 20px;
+}
+section.form h1{
+    text-align: left;
+    padding-bottom: 25px;
+}
+section.form p{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+section.form input{
+    background-color: black;
+    border: 1px solid var(--verde5);
+    border-radius: 7px;
+    padding: 3px;
+    color: var(--verde);
+    transition: .5s;
+}
+
+section.form input.button{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.8em;
+    transition: .2s;
+}
+section.form input.button:hover, section.form input:hover{
+    color: white;
+    border: 1px solid white;
 }

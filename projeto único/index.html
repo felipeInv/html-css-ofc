@@ -62,6 +62,27 @@
                 <iframe name="tela" src="projeto 3 Tel/home.html" frameborder="0"></iframe>
             </section>
         </section>
+        <section class="form">
+            <h1>Deixe seus dados para contato<h1>
+            <form action="cadastro.js" method="post" autocomplete="on">
+                <p><label for="inome">Nome:</label> 
+                    <input type="text" name="Nome" id="inome" required maxlength="20" size="37" placeholder="Coloque aqui seu nome (sem Sobrenome)" autocomplete="name">
+                </p>
+                <p><label for="isobrenome">Sobrenome:</label> 
+                    <input type="text" name="sobrenome" id="isobrenome" required maxlength="30" size="30" placeholder="Coloque aqui seu Sobrenome" autocomplete="name">
+                </p>
+                <p><label for="iusuario">Usuário:</label> 
+                    <input type="text" name="usuario" id="iusuario" required minlength="3" maxlength="20" size="35" placeholder="Seu nome de usuário" autocomplete="username">
+                </p>
+                <p><label for="isenha">Senha:</label> 
+                    <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="36" placeholder="Sua senha" autocomplete="new-password">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar" class="button">
+                    <input type="reset" value="Limpar" class="button">
+                </p>
+            </form>
+        </section>
     </main>
 </body>
 </html>
