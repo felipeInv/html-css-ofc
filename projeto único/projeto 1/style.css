@@ -181,18 +181,26 @@ section.outTel{
     float: top;
     border-bottom: 1px solid rgba(255, 255, 255, 0.596);
     border-top: 1px solid rgba(255, 255, 255, 0.596);
-    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     border-radius: 20px;
 }
 section.outTel img{   
-    margin: 20px;
+    margin: 30px;
     margin-bottom: 0;
+    margin-top: 0px;
 }
 div.nomeApp{
     display: inline;
+    position: relative;
     width: 100%;
+    text-align: center;
 }
 div.nomeApp p{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-56%);
     opacity: 0;
     transition: .6s;
 }
