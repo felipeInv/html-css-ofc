@@ -184,8 +184,20 @@ section.outTel{
     padding: 20px;
     border-radius: 20px;
 }
-section.outTel a{   
+section.outTel img{   
     margin: 20px;
+    margin-bottom: 0;
+}
+div.nomeApp{
+    display: inline;
+    width: 100%;
+}
+div.nomeApp p{
+    opacity: 0;
+    transition: .6s;
+}
+div.nomeApp:hover p{
+    opacity: 1;
 }
 section.outTel a img{
     display: inline-block;
