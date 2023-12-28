@@ -26,7 +26,7 @@ section{
     margin-bottom: 50px;
 }
 img.myfoto{
-    min-height: 10vw;
+    max-width: 20vw;
     border-radius: 50%;
 }
 
@@ -63,8 +63,9 @@ section.inicio a:hover{
 
 .skills{
     margin: auto;
-    min-width: 30vw;
-    padding: 50px;
+    max-width: 50vw;
+    width: 90vw;
+    padding: 30px;
     border-radius: 20px;
     background-color: #585858;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.637);
@@ -184,7 +185,7 @@ section.outTel{
     border-bottom: 1px solid rgba(255, 255, 255, 0.596);
     border-top: 1px solid rgba(255, 255, 255, 0.596);
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 5px;
     border-radius: 20px;
 }
 section.outTel img{   
@@ -209,6 +210,10 @@ div.nomeApp p{
 div.nomeApp:hover p{
     opacity: 1;
 }
+section.outTel a{
+    display: inline-block   ;
+    margin-bottom: 30px;
+}
 section.outTel a img{
     display: inline-block;
     height: 8vh;
@@ -225,6 +230,9 @@ section.outTel a img:hover{
 
 
 section.form{
+    margin: auto;
+    max-width: 50vw;
+    width: 90vw;
     padding: 20px;
     border-top: 1px solid var(--verde);
     border-bottom: 1px solid var(--verde);
