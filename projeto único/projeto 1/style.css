@@ -61,6 +61,8 @@ section.inicio a:hover{
 
 
 
+
+
 .skills{
     margin: auto;
     width: 60vw;
@@ -166,6 +168,7 @@ section.inicio a:hover{
 
 
 
+
 section.inTel{
     position: relative;
     height: 627px;
@@ -226,6 +229,8 @@ section.outTel a img:hover{
     box-shadow: 5px 3px 5px black;
     border: 1px solid var(--verde);
 }
+
+
 
 
 
