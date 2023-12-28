@@ -204,11 +204,44 @@
                         <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
                     </p>
                 </fieldset>
+                <fieldset>
+                    <legend>Output</legend>
+                    <p>
+                        <label for="inum1">1º Número:</label>
+                        <input type="number" name="num1" id="inum1" min="1" max="50" required oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+                    </p>
+                    <p>
+                        <label for="inum2">2º Número:</label>
+                        <input type="number" name="num1" id="inum2" min="1" max="50" required oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+                    </p>
+                    <p>
+                        <label for="isoma">Resultado</label>
+                        <output name="soma" id="isoma">0</output>
+                    </p>
+                    <p>
+                        <label for="inumr">Número: </label> <output id="ival">5</output>
+                        <input type="range" name="numr" id="inumr" min="0" max="10" class="formalt" oninput="ival.innerHTML = Number(inumr.value)"> <br>
+                    </p>
+                    <p>
+                        <label for="iano">Em que ano você nasceu?</label>
+                        <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()">
+                    </p>
+                    <p>
+                        <label for="iidade">Sua idade é:</label>
+                        <output id="iidade">0</output>
+                    </p>
+                </fieldset>
                 <p>
                     <input type="submit" value="Enviar" class="button">
                     <input type="reset" value="Limpar" class="button">
                 </p>
             </form>
+            <script>
+                function calcIdade(){
+                    let atual = new Date().getFullYear()
+                    iidade.innerHTML = Number(atual) -Number(iano.value)
+                }
+            </script>
         </section>
     </main>
 </body>

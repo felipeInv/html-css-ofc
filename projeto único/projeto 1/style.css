@@ -288,3 +288,6 @@ fieldset{
 legend{
     margin-bottom: 10px;
 }
+output{
+    color: var(--verde);
+}
