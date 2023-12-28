@@ -26,7 +26,7 @@ section{
     margin-bottom: 50px;
 }
 img.myfoto{
-    height: 15vw;
+    min-height: 15vw;
     border-radius: 50%;
 }
 
