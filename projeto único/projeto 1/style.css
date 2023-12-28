@@ -267,3 +267,12 @@ section.form input.button:hover, section.form input:hover{
     color: white;
     border: 1px solid white;
 }
+fieldset{
+    border: none;
+    border-top: 1px solid var(--verde);
+    border-radius: 15px;
+    margin: 10px;
+}
+legend{
+    margin-bottom: 10px;
+}
