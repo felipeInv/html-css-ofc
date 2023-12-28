@@ -86,7 +86,7 @@
                 <p><label for="inome">Nome:</label> 
                     <input type="text" name="Nome" id="inome" required maxlength="20" size="37" placeholder="Coloque aqui seu nome (sem Sobrenome)" autocomplete="name">
                 </p>
-                <p><label for="isobrenome">Sobrenome:</label> 
+                <p><label for="isobrenome">Sobrenome:</label>
                     <input type="text" name="sobrenome" id="isobrenome" required maxlength="30" size="30" placeholder="Coloque aqui seu Sobrenome" autocomplete="name">
                 </p>
                 <p><label for="iusuario">Usuário:</label> 
@@ -94,6 +94,22 @@
                 </p>
                 <p><label for="isenha">Senha:</label> 
                     <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="36" placeholder="Sua senha" autocomplete="new-password">
+                </p>
+                <p>
+                    <label for="inum">Número favorito</label>
+                    <input type="number" name="num" id="inum" min="0" max="10" step="0.25" placeholder="0 a 10" required value="3">
+                </p>
+                <p>
+                    <label for="imes">Mês que deseja começar</label>
+                    <input type="month" name="mes" id="imes" required>
+                </p>
+                <p>
+                    <label for="data">Data de nascimento</label>
+                    <input type="date" name="data" id="idata" required value="2006-09-06">
+                </p>
+                <p>
+                    <label for="hora">Hora da sorte</label>
+                    <input type="time" name="hora" id="ihora" value="08:00">
                 </p>
                 <p>
                     <input type="submit" value="Enviar" class="button">
