@@ -61,9 +61,11 @@ section.inicio a:hover{
 
 
 
+
+
 .skills{
     margin: auto;
-    width: 40vw;
+    min-width: 40vw;
     padding: 50px;
     border-radius: 20px;
     background-color: #585858;
@@ -161,6 +163,8 @@ section.inicio a:hover{
         width: 15%;
     }
 }
+
+
 
 
 section.inTel{
