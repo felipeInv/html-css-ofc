@@ -131,6 +131,37 @@
                             <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="(21)91234-5678" size="36" pattern="^\([1-9]{2}\)[0-9]{5}\-[0-9]{4}$">
                         </p>
                 </fieldset>
+                <fieldset>
+                    <legend>Marque</legend>
+                    <fieldset>
+                        <legend>Áreas Favoritas</legend>
+                        <input type="checkbox" name="progra" id="iprogra"><label for="iprogra" class="marque">Programação</label>
+                        <input type="checkbox" name="inves" id="iinves"><label for="iinves" class="marque">Investimentos</label>
+                        <input type="checkbox" name="desi" id="idesi"><label for="idesi" class="marque">Design</label>
+                        <input type="checkbox" name="vide" id="ivide"><label for="ivide" class="marque">Vídeo</label>
+                        <input type="checkbox" name="3d" id="i3d"><label for="i3d" class="marque">3D</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <input type="radio" name="sex" id="imasc" checked value="M"><label for="imasc" class="marque">Masculino</label> <br>
+                        <input type="radio" name="sex" id="ifem" value="F"><label for="ifem" class="marque">Feminino</label>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Personalize</legend>
+                    <p>
+                        <label for="icor">Cor</label>
+                        <input type="color" name="cor" id="icor" class="formalt" value="#00ff00">
+                    </p>
+                    <p>
+                        <label for="inivel">Nível de satisfação</label>
+                        <input type="range" name="nivel" id="inivel" min="1" max="6" class="formalt" value="5">
+                    </p>
+                    <p>
+                        <label for="foto">Foto de perfil</label>
+                        <input type="file" name="" id="">
+                    </p>
+                </fieldset>
                 <p>
                     <input type="submit" value="Enviar" class="button">
                     <input type="reset" value="Limpar" class="button">
