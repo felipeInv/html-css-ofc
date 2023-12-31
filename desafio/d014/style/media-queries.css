@@ -6,6 +6,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     section#login{
         width: 80vw;
+        height: 100vh;
     }
     section#login div#img{
         float: left;
@@ -21,9 +22,10 @@
         background-image: linear-gradient(45deg, var(--verde), var(--laranja));
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px){
     section#login{
         width: 60vw;
+        height: 70vh;
     }
     section#login div#img{
         float: right;
@@ -38,13 +40,10 @@
     body{
         background-image: linear-gradient(45deg, var(--verde), var(--laranja));
     }
-    section#login div#form h1{
+    h1{
         font-size: 2em;
     }
-    section#login div#form p{
+    p{
         font-size: 1.2em;
     }
-}
-@media screen and (min-width: 1601px){
-   
 }

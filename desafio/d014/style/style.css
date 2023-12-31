@@ -2,6 +2,9 @@
 
 :root{
     --verde: #2CE038;
+    --verdeSec: #2f9736;
+    --verdeEsc: #184d1b;
+    --verdeCla: #69e26f;
     --laranja: #d6a316;
 }
 *{
@@ -54,4 +57,9 @@ section#login div#form h1{
 }
 section#login div#form p{
     font-size: 0.8em;
+}
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
 }
